@@ -3,7 +3,7 @@ package api
 import (
 	"time"
 
-	"github.com/prebid/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/consentconstants"
 )
 
 // VendorConsents is a GDPR Vendor Consent string, as defined by IAB Europe. For technical details,

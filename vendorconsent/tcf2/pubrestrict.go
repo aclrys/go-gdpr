@@ -3,7 +3,7 @@ package vendorconsent
 import (
 	"fmt"
 
-	"github.com/prebid/go-gdpr/bitutils"
+	"github.com/aclrys/go-gdpr/bitutils"
 )
 
 // IAB spec does not specify a max vendorID for the publisher restrictions. This should be one bit short of the max possible.

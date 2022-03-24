@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/prebid/go-gdpr/api"
-	"github.com/prebid/go-gdpr/vendorconsent"
+	"github.com/aclrys/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/vendorconsent"
 )
 
 func BenchmarkParse(b *testing.B) {

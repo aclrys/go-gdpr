@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/buger/jsonparser"
-	"github.com/prebid/go-gdpr/api"
-	"github.com/prebid/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/consentconstants"
 )
 
 // ParseLazily returns a view of the data which re-calculates things on each function call.

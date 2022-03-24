@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"testing"
 
-	tcf2 "github.com/prebid/go-gdpr/vendorconsent/tcf2"
+	tcf2 "github.com/aclrys/go-gdpr/vendorconsent/tcf2"
 )
 
 // This checks error conditions to verify that we get errors back on malformed strings

@@ -3,7 +3,7 @@ package vendorlist
 import (
 	"testing"
 
-	"github.com/prebid/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/api"
 )
 
 func TestEagerlyParsedVendorList(t *testing.T) {

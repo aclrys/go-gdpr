@@ -4,9 +4,9 @@ import (
 	"encoding/base64"
 	"strings"
 
-	"github.com/prebid/go-gdpr/api"
-	"github.com/prebid/go-gdpr/bitutils"
-	"github.com/prebid/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/bitutils"
+	"github.com/aclrys/go-gdpr/consentconstants"
 )
 
 const (

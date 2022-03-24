@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/prebid/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/consentconstants"
 )
 
 var (

@@ -1,6 +1,6 @@
 package consentconstants
 
-import base "github.com/prebid/go-gdpr/consentconstants"
+import base "github.com/aclrys/go-gdpr/consentconstants"
 
 // TCF 2.0 Special Features:
 const (

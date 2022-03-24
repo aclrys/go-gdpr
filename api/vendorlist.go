@@ -1,6 +1,6 @@
 package api
 
-import "github.com/prebid/go-gdpr/consentconstants"
+import "github.com/aclrys/go-gdpr/consentconstants"
 
 // VendorList is an interface used to fetch information about an IAB Global Vendor list.
 // For the latest version, see: https://vendorlist.consensu.org/vendorlist.json

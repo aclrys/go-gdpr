@@ -3,7 +3,7 @@ package vendorconsent
 import (
 	"fmt"
 
-	"github.com/prebid/go-gdpr/bitutils"
+	"github.com/aclrys/go-gdpr/bitutils"
 )
 
 func parseRangeSection(metadata ConsentMetadata, maxVendorID uint16, startbit uint) (*rangeSection, uint, error) {

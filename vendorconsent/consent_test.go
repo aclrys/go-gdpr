@@ -4,7 +4,7 @@ import (
 	"encoding/base64"
 	"testing"
 
-	tcf1 "github.com/prebid/go-gdpr/vendorconsent/tcf1"
+	tcf1 "github.com/aclrys/go-gdpr/vendorconsent/tcf1"
 )
 
 func TestIsSet(t *testing.T) {

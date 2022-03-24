@@ -1,7 +1,7 @@
   [![Build
 Status](https://travis-ci.org/prebid/go-gdpr.svg?branch=master)](https://travis-ci.org/prebid/go-gdpr)
-  [![ReportCard](https://goreportcard.com/badge/github.com/prebid/go-gdpr)](https://goreportcard.com/report/github.com/prebid/go-gdpr)
-  [![GoDoc](https://godoc.org/github.com/prebid/go-gdpr?status.svg)](https://godoc.org/github.com/prebid/go-gdpr)
+  [![ReportCard](https://goreportcard.com/badge/github.com/aclrys/go-gdpr)](https://goreportcard.com/report/github.com/aclrys/go-gdpr)
+  [![GoDoc](https://godoc.org/github.com/aclrys/go-gdpr?status.svg)](https://godoc.org/github.com/aclrys/go-gdpr)
 
 # Go Support for GDPR
 
@@ -17,8 +17,8 @@ package main
 import (
   "log"
 
-  "github.com/prebid/go-gdpr/consentconstants"
-  "github.com/prebid/go-gdpr/vendorconsent"
+  "github.com/aclrys/go-gdpr/consentconstants"
+  "github.com/aclrys/go-gdpr/vendorconsent"
 )
 
 func DemoConsentStringParsing() {
@@ -51,8 +51,8 @@ import (
   "log"
   "net/http"
 
-  "github.com/prebid/go-gdpr/consentconstants"
-  "github.com/prebid/go-gdpr/vendorlist"
+  "github.com/aclrys/go-gdpr/consentconstants"
+  "github.com/aclrys/go-gdpr/vendorlist"
 )
 
 func DemoVendorListParsing() {
@@ -89,4 +89,4 @@ Pull Requests are always welcome for:
 7. Benchmarks
 8. Optimizations which don't break the unit tests and prove to be faster through the benchmarks.
 
-Other pull requests may also be accepted, but larger features should probably be discussed [in an Issue](https://github.com/prebid/go-gdpr/issues/new) first.
+Other pull requests may also be accepted, but larger features should probably be discussed [in an Issue](https://github.com/aclrys/go-gdpr/issues/new) first.

@@ -3,7 +3,7 @@ package vendorlist2
 import (
 	"testing"
 
-	"github.com/prebid/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/api"
 )
 
 func AssertVendorlistCorrectness(t *testing.T, parser func(data []byte) api.VendorList) {

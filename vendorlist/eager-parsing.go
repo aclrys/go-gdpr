@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/prebid/go-gdpr/api"
-	"github.com/prebid/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/consentconstants"
 )
 
 // ParseEagerly interprets and validates the Vendor List data up front, before returning it.

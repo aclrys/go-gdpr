@@ -3,7 +3,7 @@ package vendorconsent
 import (
 	"testing"
 
-	"github.com/prebid/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/consentconstants"
 )
 
 func TestBitField(t *testing.T) {
