@@ -1,4 +1,4 @@
-module github.com/prebid/go-gdpr
+module github.com/aclrys/go-gdpr
 
 go 1.13
 
