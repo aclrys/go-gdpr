@@ -3,8 +3,8 @@ package vendorconsent
 import (
 	"encoding/base64"
 
-	"github.com/prebid/go-gdpr/api"
-	"github.com/prebid/go-gdpr/consentconstants"
+	"github.com/aclrys/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/consentconstants"
 )
 
 // ParseString parses the TCF 1.x vendor string base64 encoded
