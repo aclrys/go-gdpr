@@ -1,10 +1,10 @@
 package vendorconsent
 
 import (
-	"github.com/prebid/go-gdpr/api"
-	"github.com/prebid/go-gdpr/consentconstants"
-	tcf1 "github.com/prebid/go-gdpr/vendorconsent/tcf1"
-	tcf2 "github.com/prebid/go-gdpr/vendorconsent/tcf2"
+	"github.com/aclrys/go-gdpr/api"
+	"github.com/aclrys/go-gdpr/consentconstants"
+	tcf1 "github.com/aclrys/go-gdpr/vendorconsent/tcf1"
+	tcf2 "github.com/aclrys/go-gdpr/vendorconsent/tcf2"
 )
 
 // ParseString parses a Raw (unpadded) base64 URL encoded string.
